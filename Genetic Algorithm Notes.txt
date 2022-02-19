@@ -1,0 +1,39 @@
+Genetic Algorithm Notes
+
+Fitness:
+	Number of wins out of 30 games
+	Add points for sending opponents home
+	Add points for getting pieces out
+	Total of piece positions relative to opponents’
+	Incentivise higher indices early (getting ahead faster
+
+Normalised fitness
+Roulette selection
+	Pick random individuals from population (pop until all individuals have mated)
+Two point crossover
+
+
+Hyperparameters:
+Crossover rate
+Mutation rate
+Selection type (roulette / ranked)
+ANN:	
+	Number of hidden layers
+	Number of nodes in layers
+Weight resolution (bits per weight)
+
+What to plot
+
+Parameter control:
+	Mutation
+	Two-point Crossover
+	Ranked
+
+Save wins and fitness of each individual
+	Boxplot per generation
+	100 generations
+
+Comparisons:
+	Linear transition (reduced state)
+	ANN (reduced state)
+	ANN (positions state)
